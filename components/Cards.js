@@ -38,9 +38,10 @@ function cardMaker(cardInfo){
     author.classList.add('author');
     imgContainer.classList.add('img-cotnainer');
 
-    //add conctent
+    //add content
     card.textContent = cardInfo['headline'];
     img.src = cardInfo['authorPhoto'];
+    img.width = "100";
     authorsName.textContent = cardInfo['authorName'];
 
      //HTML build
